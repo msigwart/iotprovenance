@@ -1,4 +1,6 @@
 # Data Provenance for the Internet of Things
+[![Build Status](https://travis-ci.org/msigwart/iotprovenance.svg?branch=master)](https://travis-ci.org/msigwart/iotprovenance)
+
 This project contains experimental smart contracts which can be used to implement data provenance concepts for 
 Internet of Things (IoT) applications. More information can be found [here](https://arxiv.org/pdf/1905.06852.pdf).
 > _Important: This project represents on-going research. Use with care._
