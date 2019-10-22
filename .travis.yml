@@ -3,6 +3,9 @@ language: node_js
 node_js:
   - 12
 
+install:
+  - npm install --no-optional
+
 before_script:
   - npm install -g truffle@5.0.5 ganache-cli@6.4.3
   - npm install --no-optional
