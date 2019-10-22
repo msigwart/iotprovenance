@@ -1,0 +1,53 @@
+# Created by https://www.gitignore.io/api/soliditytruffle
+
+### IntelliJ ###
+.idea/*
+
+### SolidityTruffle ###
+# depedencies
+node_modules
+
+# testing
+coverage
+
+# production
+build
+build_webpack
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+.truffle-solidity-loader
+.vagrant/**
+blockchain/geth/**
+blockchain/keystore/**
+blockchain/history
+
+#truffle
+.tern-port
+yarn.lock
+package-lock.json
+
+# loom
+/dappchain/
+gateway_address
+gateway_dappchain_address
+provenance_address
+provenance_dappchain_address
+provenance_tx_hash
+
+extdev_private_key
+extdev_public_key
+rinkeby_account
+rinkeby_mnemonic
+rinkeby_private_key
+ropsten_account
+ropsten_mnemonic
+ropsten_private_key
+
+# yarn
+yarn-error.log
+
+*/.iotprovenance
+# End of https://www.gitignore.io/api/soliditytruffle
